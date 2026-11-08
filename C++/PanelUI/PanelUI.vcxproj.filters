@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{1a2b3c4d-0001-4000-9000-000000000001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{1a2b3c4d-0002-4000-9000-000000000002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{1a2b3c4d-0003-4000-9000-000000000003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\imgui">
+      <UniqueIdentifier>{1a2b3c4d-0004-4000-9000-000000000004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\imgui\backends">
+      <UniqueIdentifier>{1a2b3c4d-0005-4000-9000-000000000005}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp"><Filter>src</Filter></ClCompile>
+    <ClCompile Include="src\app.cpp"><Filter>src</Filter></ClCompile>
+    <ClCompile Include="src\backdrop.cpp"><Filter>src</Filter></ClCompile>
+    <ClCompile Include="src\draw2d.cpp"><Filter>src</Filter></ClCompile>
+    <ClCompile Include="src\fonts.cpp"><Filter>src</Filter></ClCompile>
+    <ClCompile Include="src\icons.cpp"><Filter>src</Filter></ClCompile>
+    <ClCompile Include="src\panel.cpp"><Filter>src</Filter></ClCompile>
+    <ClCompile Include="src\sections.cpp"><Filter>src</Filter></ClCompile>
+    <ClCompile Include="src\snow.cpp"><Filter>src</Filter></ClCompile>
+    <ClCompile Include="src\state.cpp"><Filter>src</Filter></ClCompile>
+    <ClCompile Include="src\widgets.cpp"><Filter>src</Filter></ClCompile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ClInclude Include="src\app.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="src\backdrop.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="src\draw2d.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="src\fonts.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="src\icons.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="src\panel.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="src\sections.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="src\snow.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="src\state.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="src\theme.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="src\widgets.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="res\resource.h"><Filter>res</Filter></ClInclude>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ResourceCompile Include="res\PanelUI.rc"><Filter>res</Filter></ResourceCompile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Image Include="res\app.ico"><Filter>res</Filter></Image>
+    <None Include="..\README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ClCompile Include="..\third_party\imgui\imgui.cpp"><Filter>third_party\imgui</Filter></ClCompile>
+    <ClCompile Include="..\third_party\imgui\imgui_draw.cpp"><Filter>third_party\imgui</Filter></ClCompile>
+    <ClCompile Include="..\third_party\imgui\imgui_tables.cpp"><Filter>third_party\imgui</Filter></ClCompile>
+    <ClCompile Include="..\third_party\imgui\imgui_widgets.cpp"><Filter>third_party\imgui</Filter></ClCompile>
+    <ClCompile Include="..\third_party\imgui\backends\imgui_impl_dx11.cpp"><Filter>third_party\imgui\backends</Filter></ClCompile>
+    <ClCompile Include="..\third_party\imgui\backends\imgui_impl_win32.cpp"><Filter>third_party\imgui\backends</Filter></ClCompile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ClInclude Include="..\third_party\imgui\imgui.h"><Filter>third_party\imgui</Filter></ClInclude>
+    <ClInclude Include="..\third_party\imgui\imgui_internal.h"><Filter>third_party\imgui</Filter></ClInclude>
+    <ClInclude Include="..\third_party\imgui\imconfig.h"><Filter>third_party\imgui</Filter></ClInclude>
+    <ClInclude Include="..\third_party\imgui\imstb_rectpack.h"><Filter>third_party\imgui</Filter></ClInclude>
+    <ClInclude Include="..\third_party\imgui\imstb_textedit.h"><Filter>third_party\imgui</Filter></ClInclude>
+    <ClInclude Include="..\third_party\imgui\imstb_truetype.h"><Filter>third_party\imgui</Filter></ClInclude>
+    <ClInclude Include="..\third_party\imgui\backends\imgui_impl_dx11.h"><Filter>third_party\imgui\backends</Filter></ClInclude>
+    <ClInclude Include="..\third_party\imgui\backends\imgui_impl_win32.h"><Filter>third_party\imgui\backends</Filter></ClInclude>
+  </ItemGroup>
+</Project>
